@@ -1,0 +1,40 @@
+body {
+    margin: 5em auto;
+    max-width: 500px;
+    background-color: white;
+    font-family: "Lucida Console", Courier, monospace;
+    color: grey;
+}
+
+input, select, textarea, button {
+    font-family: inherit;
+}
+
+.slider {
+    opacity: 0.7;
+}
+
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+form div {
+    margin: 2em 0;
+}
+
+#drawing {
+    margin: 2em 0;
+    border: 5px solid;
+    width: 300px;
+    height: 300px;
+}
+
+#download-btn {
+    text-decoration: none;
+    color: inherit;
+}
+
+#submit-btn {
+    cursor: pointer;
+}
+

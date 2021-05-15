@@ -1,3 +1,8 @@
-bottle
+fastapi
+uvicorn[standard]
+jinja2
+aiofiles
 numpy
-opencv-contrib-python
+opencv-python-headless
+flake8
+black

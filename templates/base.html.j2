@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    {% if title %}
+    <title>Abstract Circles - {{ title }}</title>
+    {% else %}
+    <title>Abstract Circles</title>
+    {% endif %}
+    <link rel="stylesheet" href="{{ url_for('static', path='main.css') }}" />
+    <script src="{{ url_for('static', path='main.js') }}"></script>
+  </head>
+  <body>
+    <h1>Abstract Circles</h1>
+    {% block content %}{% endblock content %}
+  </body>
+</html>

@@ -1,8 +1,6 @@
-fastapi
+fastapi>=0.65.1,<0.66.0
 uvicorn[standard]
 jinja2
 aiofiles
 numpy
 opencv-python-headless
-flake8
-black
